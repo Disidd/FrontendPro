@@ -1,0 +1,10 @@
+FirstNumber = parseFloat(prompt('Enter first number'));
+SecondNumber = parseFloat(prompt('Enter second number'));
+Plus = FirstNumber + SecondNumber;
+Minus = FirstNumber - SecondNumber;
+Multiply = FirstNumber * SecondNumber;
+Divide = FirstNumber / SecondNumber;
+alert(`${FirstNumber} + ${SecondNumber} = ${Plus} 
+  ${FirstNumber} - ${SecondNumber} = ${Minus}
+  ${FirstNumber} * ${SecondNumber} = ${Multiply}
+  ${FirstNumber} / ${SecondNumber} = ${Divide}`);
